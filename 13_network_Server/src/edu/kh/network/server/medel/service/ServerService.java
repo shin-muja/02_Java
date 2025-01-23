@@ -52,7 +52,7 @@ public class ServerService {
 		BufferedReader br = null;
 		
 		PrintWriter pw = null;
-		// PringWriter : 문자 기반 출력 스트림(보조 스트림 X)
+		// PrintWriter : 문자 기반 출력 스트림(보조 스트림 X)
 		// 파일, 콘솔, 네트워크 소켓 등 다양한 출력 스트림에서
 		// 데이터를 쉽게 출력가능(기반 스트림)
 		

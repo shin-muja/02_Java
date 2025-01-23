@@ -1,8 +1,0 @@
-package edu.kh.io.pack4.run;
-
-public class CharacterRun {
-	public static void main(String[] args) {
-	}
-	}
-
-}

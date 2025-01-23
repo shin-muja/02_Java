@@ -96,7 +96,7 @@ public class FileService {
 	}
 	
 	/**
-	 * File 객체를 이요해서
+	 * File 객체를 이용해서
 	 * 지정된 위치에 파일 생성하기
 	 */
 	public void method2() {

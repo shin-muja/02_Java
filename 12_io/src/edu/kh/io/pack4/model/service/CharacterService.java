@@ -16,6 +16,19 @@ public class CharacterService {
 	 * - 문자만 작성된 파일, 채팅, 인터넷 요청 시 데이터 전달
 	 */
 	
+	
+	/*
+	 * PrintWriter 객체는 .println() 메서드로 출력해야함 후에 .flush() 밀기도 해아함
+
+	 * String serverIP = InetAddress.getLocalHost().getHostAddress();
+	 * "127.0.0.1" : 루프백 아이피 위와 같이 내 컴퓨터의 IP
+	 * 현재 내 컴퓨터의 주소를 얻어옴 다른 서버컴퓨터의 주소를 얻기위해서는 다른 메서드
+
+	 * 스트림 소켓 사용시 메모리 누수 방지를 위한 try catch 구분 마지막 finally 구문 속 사용한 스트림 소켓
+	 * 종료 작성해야함 close()
+	 * 
+	 */
+	
 	/**
 	 * 문자 기반 파일 입력(파일 읽어오기)
 	 * + 보조 스트림 Buffered 사용
